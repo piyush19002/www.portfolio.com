@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POrtfOliO</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet" >
+    <style>
+        html{
+        scroll-behavior: smooth;
+        }
+        body{
+            
+            /* background-color: bisque; */
+            background:url("ronak-jain-37Hk9D4Ig_4-unsplash.jpg") ;
+            margin: 0px;
+            padding:0px;
+            background-size: 1510px 1800px;
+            background-repeat: no-repeat;
+           background-position: center;
+           
+            
+        }
+        header{
+            padding-top: 120px;
+            padding-left: 120px;
+            font-size: 2cm;
+            font-family: 'DynaPuff', cursive;
+            font-weight: 900;
+
+        }
+        .mid {
+            background: aliceblue;
+            margin:4px;
+            padding: 1px 2px;
+            background-color: #fff;
+            border-radius: 45px;
+            display: inline-block;
+            position: fixed;
+            width: 1200px;      }
+
+        .right {
+                position: absolute;
+                right: 544px;
+                left: 374px;
+                top: 278px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                flex-wrap: nowrap;
+                order: 1;
+                
+}
+        
+        .left{
+           
+            width: 185px;
+            padding: 20px;
+            padding-top: 0;
+            margin: 0px 150px;
+            font-size: 21px;
+            border-radius: 41px;
+        }
+        .right img{
+            width:350px;
+
+        }      
+        .navbar {
+        display: inline-block; 
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .head2{
+        margin-top: 200px;
+    }
+    #dry{
+        font-size: 24px;
+    }
+    #section2{
+     background-color: aliceblue;
+    }
+   #con{
+    margin: 50px;
+    margin-top: 1px;
+
+   }
+   .con2 li{
+    font-size: 25px;
+   }
+   .con2 li a{
+    text-decoration: none;
+    color: black;
+   }
+   .con2 li a:hover{
+    text-decoration: underline;
+    color: gray;
+   }
+    </style>
+    <script>
+        function scrollToSection(id){
+            var element = document.getElementById(id);
+            element.scrollHeight({behaviour:"smooth",block:"start",inline:"nearest"});
+        }
+    </script>
+</head>
+<body>
+   <section>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#section2">Skills</a></li>
+            <li><a href="https://64376c4c711b91343ba20a2e--dulcet-cascaron-309bad.netlify.app/">Projects</a></li>
+            
+        </ul>
+    </div>
+    <header>HELLO &#33;</header>
+    <div class="left">
+        <p>I am Piyush kumar sahu.
+            Currently pursuing B.Tech in Chemical engineering from NIT Raipur.
+        </p>
+</div>
+  
+    <div class="right"> 
+        <img src="20230411_231649.jpg" alt="">
+
+</div>
+</section>
+<section id ="section2">
+</div>
+<div class="head2">
+<header>Skills</header>
+<p class="ri"> 
+<ul id ="dry">
+    <li>Learned c++ language.</li>
+    <li>Frontend developer </li>
+</ul>
+</p>
+<img src="cpp.png">
+</div>
+</section>
+<section id="section3">
+
+    <header id="con">Contact</header>
+    <ul class="con2">
+        <li><a href="https://instagram.com/1800_piyush?igshid=ZDdkNTZiNTM=">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/piyush-kumar-sahu-b5a829257">LinkedIn</a></li>
+    </ul>
+
+</section>
+
+</body>
+</html>
